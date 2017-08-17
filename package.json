@@ -1,0 +1,33 @@
+{
+  "name": "date_api",
+  "version": "1.0.0",
+  "description": "Date API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demmys/date_api.git"
+  },
+  "author": "Atsuki Demizu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demmys/date_api/issues"
+  },
+  "homepage": "https://github.com/demmys/date_api#readme",
+  "dependencies": {
+    "async": "^2.5.0",
+    "config": "^1.26.2",
+    "csv": "^1.1.1",
+    "express": "^4.15.4",
+    "forever": "^0.15.3",
+    "morgan": "^1.8.2",
+    "pg": "^7.1.2",
+    "pg-hstore": "^2.3.2",
+    "pug": "^2.0.0-rc.3",
+    "request": "^2.81.0",
+    "sequelize": "^4.4.3",
+    "winston": "^2.3.1"
+  }
+}

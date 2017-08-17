@@ -1,0 +1,17 @@
+{
+    "port": 3000,
+    "log": {
+        "access": "./logs/access"
+    },
+    "db": {
+        "host": "localhost",
+        "database": "date_api",
+        "username": "date_api",
+        "password": "date_api",
+        "dialect": "postgres",
+        "logging": true
+    },
+    "url": {
+        "governmentHolidayCsv": "http://www8.cao.go.jp/chosei/shukujitsu/syukujitsu.csv"
+    }
+}
